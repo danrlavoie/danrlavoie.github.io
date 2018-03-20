@@ -1,0 +1,100 @@
+.button {
+  border: 1px #320B86;
+  color: #673AB7; }
+
+.button-disabled {
+  border: 1px #320B86;
+  color: #9A67EA; }
+
+.button-pressed {
+  border: 1px #673AB7;
+  color: #320B86; }
+
+.grid-1-5 {
+  width: 20%; }
+
+.grid-2-5 {
+  width: 40%; }
+
+.grid-3-5 {
+  width: 60%; }
+
+.grid-4-5 {
+  width: 80%; }
+
+.grid-5-5 {
+  width: 100%; }
+
+.grid-1-24 {
+  width: 4.17%; }
+
+.grid-2-24 {
+  width: 8.33%; }
+
+.grid-3-24 {
+  width: 12.5%; }
+
+.grid-4-24 {
+  width: 16.67%; }
+
+.grid-5-24 {
+  width: 20.83%; }
+
+.grid-6-24 {
+  width: 25%; }
+
+.grid-7-24 {
+  width: 29.17%; }
+
+.grid-8-24 {
+  width: 33.33%; }
+
+.grid-9-24 {
+  width: 37.5%; }
+
+.grid-10-24 {
+  width: 41.67%; }
+
+.grid-11-24 {
+  width: 45.83%; }
+
+.grid-12-24 {
+  width: 50%; }
+
+.grid-13-24 {
+  width: 54.17%; }
+
+.grid-14-24 {
+  width: 58.33%; }
+
+.grid-15-24 {
+  width: 62.5%; }
+
+.grid-16-24 {
+  width: 66.67%; }
+
+.grid-17-24 {
+  width: 70.83%; }
+
+.grid-18-24 {
+  width: 75%; }
+
+.grid-19-24 {
+  width: 79.17%; }
+
+.grid-20-24 {
+  width: 83.33%; }
+
+.grid-21-24 {
+  width: 87.5%; }
+
+.grid-22-24 {
+  width: 91.67%; }
+
+.grid-23-24 {
+  width: 95.83%; }
+
+.grid-24-24 {
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

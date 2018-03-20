@@ -1,0 +1,329 @@
+
+
+// COLORS
+$success-color: #3DBABA;
+$error-color: #EC2D05;
+$warning-color: #FFC154;
+
+$primary-color: #6438B3;
+$primary-accent-color: #320B86;
+$primary-light-color: #B4A7E0;
+
+$secondary-color: #FF9100;
+$secondary-accent-color: #C56200;
+$secondary-light-color: #FFC246;
+
+$background-light-color: #FAFAFA;
+$background-dark-color: #424242;
+
+$font-color-light-background: #102027;
+$font-color-dark-background: #FFFFFF;
+
+// FONTS
+
+$font-stack: Helvetica, Verdana, sans-serif;
+$font-stack-header: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+// DEFAULTS
+html {
+  background-color: $background-light-color;
+  font-family: $font-stack-header;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display:block;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: $success-color;
+  background-color: transparent;
+}
+
+a:hover {
+  background-color: $secondary-color;
+}
+
+
+// BUTTONS
+.button {
+  border: 1px $primary-light-color solid;
+  background-color: $primary-color;
+  color: $font-color-dark-background;
+  border-radius: 4px;
+  padding: 0.1em;
+}
+
+.button-disabled {
+  border: 1px $primary-light-color solid;
+  background-color: $primary-light-color;
+  color: $font-color-light-background;
+  border-radius: 4px;
+  padding: 0.1em;
+}
+
+.button-pressed {
+  border: 1px $primary-color solid;
+  background-color: $primary-accent-color;
+  color: $font-color-dark-background;
+  border-radius: 4px;
+  padding: 0.1em;
+}
+
+// MENUS
+.menu {
+  box-sizing: border-box;
+}
+
+.menu-horizontal {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.menu-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-link {
+  font-size: 80%;
+  color: $primary-accent-color;
+  padding: .5em 1em;
+}
+
+// NAVIGATION
+.nav {
+
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+// POSTS
+.posts {
+
+}
+
+.post {
+  padding-bottom: 2em;
+}
+
+.post-header {
+
+}
+
+.post-header-img {
+
+}
+
+.post-title {
+  font-size: 2em;
+  color: $font-color-light-background;
+  margin-bottom: 0.2em;
+}
+
+.post-meta {
+  font-size: 90%;
+  color: $secondary-accent-color;
+  margin: 0;
+}
+
+.post-meta-author-link {
+
+}
+
+.post-meta-tag {
+  margin: 0 0.1em;
+  padding: 0.3em 1em;
+  color: $font-color-dark-background;
+  background: $primary-accent-color;
+  font-size: 80%;
+}
+
+.post-lede {
+  font-family: Georgia, "Cambria", serif;
+  color: $font-color-light-background;
+  line-height: 1.8em;
+
+}
+// SIDEBAR AND CONTENT
+.sidebar {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  background: $primary-color;
+  color: $font-color-dark-background;
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  padding: 0.5em 0.5em;
+}
+.sidebar-content {
+  position: absolute;
+  top: 50%;
+  padding: 0 0.5em 0 0;
+}
+.sidebar-heading {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.sidebar-tagline {
+  font-weight: 300;
+  color: $font-color-dark-background;
+}
+.content {
+  padding: 2em 3em 0;
+  display: inline-block;
+  left: 0;
+  margin-left: 20%;
+}
+
+.content-subhead {
+  text-transform: uppercase;
+  color: $secondary-accent-color;
+  border-bottom: 1px $secondary-light-color solid;
+  padding: 0.4em 0;
+  font-size: 80%;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+
+.footer {
+  text-align: center;
+  padding: 1em 0;
+}
+// GRID LAYOUTS
+.grid-1-5 {
+  width: 20%;
+}
+
+.grid-2-5 {
+  width: 40%;
+}
+
+.grid-3-5 {
+  width: 60%;
+}
+
+.grid-4-5 {
+  width: 80%;
+}
+
+.grid-5-5 {
+  width: 100%;
+}
+
+.grid-1-24 {
+  width: 4.17%;
+}
+
+.grid-2-24 {
+  width: 8.33%;
+}
+
+.grid-3-24 {
+  width: 12.5%;
+}
+
+.grid-4-24 {
+  width: 16.67%;
+}
+
+.grid-5-24 {
+  width: 20.83%;
+}
+
+.grid-6-24 {
+  width: 25%;
+}
+
+.grid-7-24 {
+  width: 29.17%;
+}
+
+.grid-8-24 {
+  width: 33.33%;
+}
+
+.grid-9-24 {
+  width: 37.5%;
+}
+
+.grid-10-24 {
+  width: 41.67%;
+}
+
+.grid-11-24 {
+  width: 45.83%;
+}
+
+.grid-12-24 {
+  width: 50%;
+}
+
+.grid-13-24 {
+  width: 54.17%;
+}
+
+.grid-14-24 {
+  width: 58.33%;
+}
+
+.grid-15-24 {
+  width: 62.5%;
+}
+
+.grid-16-24 {
+  width: 66.67%;
+}
+
+.grid-17-24 {
+  width: 70.83%;
+}
+
+.grid-18-24 {
+  width: 75%;
+}
+
+.grid-19-24 {
+  width: 79.17%;
+}
+
+.grid-20-24 {
+  width: 83.33%;
+}
+
+.grid-21-24 {
+  width: 87.5%;
+}
+
+.grid-22-24 {
+  width: 91.67%;
+}
+
+.grid-23-24 {
+  width: 95.83%;
+}
+
+.grid-24-24 {
+  width: 100%;
+}
+
+body {
+  display: flex;
+}
